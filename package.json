@@ -1,0 +1,33 @@
+{
+  "name": "EveryWord.js",
+  "version": "1.0.0",
+  "description": "Tweets a new idea for a .js framework every 30 minutes.",
+  "main": "everywordjs.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "request": "^2.58.0"
+  },
+  "devDependencies": {
+    "async": "0.2.9",
+    "colors": "0.6.x",
+    "commander": "2.6.0",
+    "mocha": "2.1.0",
+    "rewire": "2.3.4",
+    "sinon": "1.15.4"
+    },
+  "scripts": {
+    "start": "node everywordjs.js"
+  },
+  "keywords": [
+    "twitter",
+    ".js",
+    "bot",
+    "fun",
+    "laughs",
+    "friendship"
+  ],
+  "author": "matthew riley",
+  "license": "ISC"
+}
